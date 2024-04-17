@@ -1,0 +1,29 @@
+.ticketHistoryItem {
+  display: flex;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.commentIcon {
+  margin-right: 1rem;
+}
+
+.ticketComment {
+  flex: 1;
+  min-width: 0; 
+}
+
+.commentDate {
+  color: #4B5563;
+  margin-bottom: 0.25rem;
+}
+
+.commentText {
+  color: #4B5563; 
+  overflow-wrap: break-word;
+}
+
+.ticketDescription {
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
